@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
-import { MapContainer, TileLayer, useMap } from "react-leaflet";
-import "leaflet/dist/leaflet.css";
+// import { MapContainer, TileLayer, useMap } from "react-leaflet";
+// import "leaflet/dist/leaflet.css";
 import { useGlobalContext } from "@/app/context/globalContext";
 
 function FlyToActiveCity({ activeCityCords }) {
@@ -40,7 +40,7 @@ function Mapbox() {
 
   return (
     <div className="flex-1 basis-[50%] border rounded-lg">
-      <MapContainer
+      {/* <MapContainer
         center={[activeCityCords.lat, activeCityCords.lon]}
         zoom={13}
         scrollWheelZoom={false}
@@ -53,7 +53,8 @@ function Mapbox() {
         />
 
         <FlyToActiveCity activeCityCords={activeCityCords} />
-      </MapContainer>
+      </MapContainer> */}
+      heloo
     </div>
   );
 }
