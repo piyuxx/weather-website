@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import Image from "next/image";
 import AirPollution from "./Components/AirPollution/AirPollution";
 import DailyForecast from "./Components/DailyForecast/DailyForecast";
